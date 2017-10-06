@@ -52,14 +52,26 @@ class Map
 
   def lookup(key)
     @map.each { |el| return el if el.first == key }
+    nil
   end
 
   def remove(key)
-    @map.each { |el| @map.delete(el) if el.first == key }
+    @map.reject! { |el| el.first == key }
+    nil
   end
 
   def show
-    @map.dup
+    deep_dup(@map)
   end
 
+end
+
+def deep_dup(arr)
+  arr.map do |el|
+    if el.is_a?(Array)
+      deep_dup(el)
+    else
+      el
+    end
+  end
 end
