@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: black;
+  background: whitesmoke;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background: whitesmoke;
+}
+
+.top-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top-nav ul li{
+  margin: 0 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul p {
+  font-weight: bold;
+}
+
+.splash-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.splash-body span {
+  width: 600px;
+  height: 280px;
+  position: absolute;
+  top: 400px;
+}
+
+.translucent {
+  width: 600px;
+  position: absolute;
+  top: 400px;
+  background: whitesmoke;
+  opacity: .58;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  font-style: none;
+  color: blue;
+  text-decoration: none;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: whitesmoke;
+}
+
+.footer-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav ul li{
+  margin: 0 30px;
+}
+
+
+
+/**************/
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: whitesmoke;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-bar li {
+  padding: 0 15px;
+}
+
+.nav-bar img {
+  width: 30px;
+  height: 30px;
+}
+
+.note-zone {
+  display: flex;
+}
+
+.notes {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+form {
+  font-weight: bold;
+}
+
+.list-names {
+  width: 30%;
+  background: #cccccc;
+  padding-left: 5px;
+}
+
+.list-thing{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 33%;
+}
+
+label, input {
+  margin: 5px;
+}
+
+input {
+  width: 200px;
+}
+
+.search-form
+
+.new-list-form
+
+.new-item-form
